@@ -83,3 +83,15 @@
 2. Total Abstraction(100% Abstarction)
 
 ***
+
+## Static Keyword
+
+    static keyword in JAVA is used to share the same variable or method of a given class.
+
+_Properties, Functions, Blocks, Nested Classes can be static._
+
+### Super Keyword
+
+    Super keyword is used to refer immediate parent class object.
+
+***

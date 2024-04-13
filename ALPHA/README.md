@@ -1,6 +1,5 @@
-# Data Structers and Algoritham
-
 # Alpha (DSA with JAVA)
+## Apna College Batch
 1. Basics
 2. Array
 3. String
