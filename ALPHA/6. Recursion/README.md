@@ -13,3 +13,9 @@ Recursion is a method of solving a computational problem where the solution depe
     sum of n natural number
 
     calculate nth term in fibonacci
+
+    check if Array is Sorted or not
+
+    find the first occurence of an element in an Array
+
+    last occurence of an element in an Array
