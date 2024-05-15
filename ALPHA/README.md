@@ -6,3 +6,4 @@
 4. Bit Manipulation
 5. OOPs
 6. Recursion
+7. Divide and Conquer (Merge Sort)
