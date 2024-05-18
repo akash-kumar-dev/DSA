@@ -18,6 +18,13 @@
 1. 50- Pow(x, n) <a href="https://leetcode.com/problems/powx-n/">LeetCode Problem</a> <a href="https://www.youtube.com/watch?v=an9WRz8QhkA&ab_channel=LearnYard">Editorials</a>
 
 # <div align="center">Maths<div>
-## Eay
+
+## Basic
 
 1. ReverseNumber.java <a href="https://leetcode.com/problems/reverse-integer/">LeetCode Problem</a> 
+
+2. plaindrome Number <a href="https://leetcode.com/problems/palindrome-number/">LeetCode Problem</a>
+
+## Hard
+
+1. max point on a line <a href="https://leetcode.com/problems/max-points-on-a-line/">Leetcode Problem</a>

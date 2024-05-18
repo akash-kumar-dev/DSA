@@ -1,6 +1,8 @@
 # Maths Basic
 
 1. ReverseNumber.java <a href="https://leetcode.com/problems/reverse-integer/">LeetCode Problem</a> 
+
+2. plaindrome Number <a href="https://leetcode.com/problems/palindrome-number/">LeetCode Problem</a>
 <hr>
 
 ### Notes 1.ReverseNumber.java
