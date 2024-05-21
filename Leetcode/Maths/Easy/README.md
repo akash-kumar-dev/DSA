@@ -5,6 +5,10 @@
 2. plaindrome Number <a href="https://leetcode.com/problems/palindrome-number/">LeetCode Problem</a>
 <hr>
 
+ 3. 2413. smallest Even Multiply <a href="https://leetcode.com/problems/smallest-even-multiple/">Leetcode Problem</a>
+ 
+4. 66. Plus One <a href="https://leetcode.com/problems/plus-one/">Leetcode Problem</a>
+
 ### Notes 1.ReverseNumber.java
 
 ## Note: Avoiding Integer Overflow in Java Reverse Function
