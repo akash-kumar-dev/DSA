@@ -10,4 +10,5 @@
 8. BackTracking
     - finds Subsets
     - N queens problem
+    - Sudoku Solver
     
