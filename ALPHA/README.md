@@ -11,4 +11,6 @@
     - finds Subsets
     - N queens problem
     - Sudoku Solver
-    
+9. Array List
+    - Store Water Problem (Two Pointer Approach)
+    - pair Sum1 & pair Sum2
