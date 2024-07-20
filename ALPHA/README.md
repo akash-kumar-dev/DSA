@@ -15,3 +15,7 @@
     - Store Water Problem (Two Pointer Approach)
     - pair Sum1 & pair Sum2
 10. Linked List
+    - Add in middle of LinkedList
+    - delete Nth from End
+    - reverse a LL
+    - check palindrome (Slow Fast Approach)
