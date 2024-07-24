@@ -19,3 +19,5 @@
     - delete Nth from End
     - reverse a LL
     - check palindrome (Slow Fast Approach)
+    - Detect or remove cycle from LL
+    - Merge Sort
