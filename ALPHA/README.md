@@ -21,3 +21,5 @@
     - check palindrome (Slow Fast Approach)
     - Detect or remove cycle from LL
     - Merge Sort
+    - zig-zag problem
+    - DoubleLL
