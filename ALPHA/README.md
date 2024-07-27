@@ -23,3 +23,6 @@
     - Merge Sort
     - zig-zag problem
     - DoubleLL
+11. Stack
+    - Stock Span Problem
+    - Next Greater Element problem
