@@ -8,5 +8,9 @@
 - Reverse a string by Stack
 - Stock Span Problem *
 - Next Greater Element problem *
+- Valid Parantheses *
+- Duplicate Paranthesis *
+- Maximum area in histogram **
+
 
 ```

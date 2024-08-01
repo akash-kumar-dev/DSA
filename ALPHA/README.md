@@ -26,3 +26,5 @@
 11. Stack
     - Stock Span Problem
     - Next Greater Element problem
+    - Duplicate Paranthesis *
+    - Maximum area in histogram **
