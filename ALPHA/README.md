@@ -28,3 +28,5 @@
     - Next Greater Element problem
     - Duplicate Paranthesis *
     - Maximum area in histogram **
+12. Queue
+    - Queue using Two Stack
