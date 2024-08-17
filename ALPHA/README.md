@@ -30,3 +30,4 @@
     - Maximum area in histogram **
 12. Queue
     - Queue using Two Stack
+    - Deque

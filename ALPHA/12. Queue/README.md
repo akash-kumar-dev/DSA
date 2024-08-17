@@ -10,5 +10,6 @@
 - first Non repeating Letter in a stream of Chracter
 - Interleave two halves of a Queue
 - Queue Reversel
+- Deque
 
 ```
