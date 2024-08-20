@@ -1,0 +1,6 @@
+## Greedy Algoritham
+
+```
+- Activity Selection
+
+```

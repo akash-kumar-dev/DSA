@@ -31,3 +31,5 @@
 12. Queue
     - Queue using Two Stack
     - Deque
+13. Greedy Algoritham
+    - Activity Selection
