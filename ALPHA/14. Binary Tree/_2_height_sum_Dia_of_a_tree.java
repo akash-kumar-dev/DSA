@@ -1,5 +1,5 @@
 import java.util.*;
-public class _2_height_of_a_tree {
+public class _2_height_sum_Dia_of_a_tree {
 
     static class Node{
         int data;

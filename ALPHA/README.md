@@ -33,3 +33,7 @@
     - Deque
 13. Greedy Algoritham
     - Activity Selection
+14. Binary Tree
+    - Diameter of a Tree
+    - Subtree of another Tree
+    - Top view of a Tree
