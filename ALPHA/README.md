@@ -37,3 +37,5 @@
     - Diameter of a Tree
     - Subtree of another Tree
     - Top view of a Tree
+    - Lowest Common Ancestor
+    - minimum distance between two Nodes
