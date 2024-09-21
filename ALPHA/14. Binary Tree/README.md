@@ -8,4 +8,7 @@
 - Kth level of a Tree
 - Lowest Common Ancestor
 - minimum distance between two Nodes
+- Kth Ancestor of Node
+- Transform to sum tree
+
 ```
