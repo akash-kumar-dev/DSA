@@ -41,3 +41,5 @@
     - minimum distance between two Nodes
     - Kth Ansector of Node
     - Transform to sum tree
+15. Binary Search Tree
+    - Delete a Node in BST
