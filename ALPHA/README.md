@@ -43,3 +43,4 @@
     - Transform to sum tree
 15. Binary Search Tree
     - Delete a Node in BST
+    - validate a BST
