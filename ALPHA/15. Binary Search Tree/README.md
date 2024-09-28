@@ -9,4 +9,6 @@
 
 - Validate a BST
 - Mirror a BST
-
+- Sorted Array to Balanced BST
+- Convert BST to Balnaced BST
+- size of Largest BST
