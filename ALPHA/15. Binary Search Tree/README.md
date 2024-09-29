@@ -12,3 +12,5 @@
 - Sorted Array to Balanced BST
 - Convert BST to Balnaced BST
 - size of Largest BST
+- Merge Two BST in a Balanced BST
+- `AVL Trees` `#*` `(pending)`

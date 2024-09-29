@@ -46,3 +46,4 @@
     - validate a BST
     - Sorted Array to Balanced BST
     - size of Largest BST
+    - `AVL Trees` `#*` `(pending)`
