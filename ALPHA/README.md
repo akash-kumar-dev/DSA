@@ -47,3 +47,5 @@
     - Sorted Array to Balanced BST
     - size of Largest BST
     - `AVL Trees` `#*` `(pending)`
+16. Heaps
+    - Priority Queues
