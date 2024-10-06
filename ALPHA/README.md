@@ -49,3 +49,4 @@
     - `AVL Trees` `#*` `(pending)`
 16. Heaps
     - Priority Queues
+    - Heap Sort
