@@ -51,3 +51,6 @@
     - Priority Queues
     - Heap Sort
     - Sliding Window Maximum
+17. Hashing
+    - Hashmap
+    
