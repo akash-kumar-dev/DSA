@@ -10,6 +10,8 @@
 - LinkedHashSet
 - TreeSet
 
+<hr></hr>
+
 ## hashmap
 
 ### iteration over hashmap
@@ -35,7 +37,21 @@ worst case tieme complexity of hashmap is O(n) in case of if all the keys are ha
 ### Valid Anagram
 - two strings are anagrams if they have the same characters but in a different order.
 
+<hr></hr>
+
 ## Hash Set
 - no duplicates (unique elements)
 - no order
 - NULL is allowed
+
+### Iteration over HashSet
+
+### LinkedHashSet and TreeSet
+
+### unique and Intersection of two arrays
+
+### find Itinerary from Tickets
+
+### Largest subArray with zero sum
+
+### subArray sum equal to k
