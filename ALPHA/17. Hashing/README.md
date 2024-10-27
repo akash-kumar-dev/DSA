@@ -22,3 +22,9 @@
 ```Note:
 worst case tieme complexity of hashmap is O(n) in case of if all the keys are hashed to the same bucket.
 ```
+
+### LinkedHashMap
+- keys are stored in the order they were inserted. (O(1))
+
+### TreeMap
+- keys are sorted in ascending order. (O(logn))
