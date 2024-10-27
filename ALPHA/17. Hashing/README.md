@@ -10,7 +10,7 @@
 - LinkedHashSet
 - TreeSet
 
-#### hashmap
+## hashmap
 
 ### iteration over hashmap
 
@@ -28,3 +28,14 @@ worst case tieme complexity of hashmap is O(n) in case of if all the keys are ha
 
 ### TreeMap
 - keys are sorted in ascending order. (O(logn))
+
+### Majority Element
+- majority element is the element that appears more than n/3 times in the array.
+
+### Valid Anagram
+- two strings are anagrams if they have the same characters but in a different order.
+
+## Hash Set
+- no duplicates (unique elements)
+- no order
+- NULL is allowed
