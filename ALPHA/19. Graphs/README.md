@@ -1,0 +1,13 @@
+### Graphs
+
+#### storing a graph
+- **Adjacency List**
+- Adjacency Matrix
+- Edge List
+- 2D Matrix (Implicit Graph)
+
+#### Graph Traversal
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
+
+- hasPath (for given  src & dest, tell if a path exists from src to dest)

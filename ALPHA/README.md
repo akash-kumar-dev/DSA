@@ -55,4 +55,7 @@
     - Hashmap
     - implementation of hashmap
 
-    
+
+19. Graphs
+    - Adjacency List
+    - Graph Traversal
