@@ -41,9 +41,38 @@ public class _02_traversals {
         graph[5].add(new Edge(5, 6, 1));
     }
 
+    // public static void bfs(ArrayList<Edge>[] graph) {
+    //     Queue<Integer> q = new LinkedList<>();
+    //     boolean vis[] = new boolean[graph.length];
+    //     q.add(0); // source = 0
+
+    //     while(!q.isEmpty()) {
+    //         int curr = q.remove();
+
+    //         if(!vis[curr]) { // visit curr
+    //             System.out.print(curr + " ");
+    //             vis[curr] = true;
+    //             for(int i=0; i<graph[curr].size(); i++) {
+    //                 Edge e = graph[curr].get(i);
+    //                 q.add(e.dest);
+    //             }
+    //         }
+    //     }
+    // }
+    
+    // BFS for disconnected graph
+
     public static void bfs(ArrayList<Edge>[] graph) {
-        Queue<Integer> q = new LinkedList<>();
         boolean vis[] = new boolean[graph.length];
+        for(int i=0; i<graph.length; i++) {
+            if(!vis[i]) {
+                bfsUtil(graph, vis);
+            }
+        }
+    }
+
+    public static void bfsUtil(ArrayList<Edge>[] graph, boolean vis[]) {
+        Queue<Integer> q = new LinkedList<>();
         q.add(0); // source = 0
 
         while(!q.isEmpty()) {
@@ -60,16 +89,41 @@ public class _02_traversals {
         }
     }
 
+
     // DFS (Depth First Search)
-    public static void dfs(ArrayList<Edge>[] graph, int curr, boolean vis[]) { // O(V+E)
-        // visit
+
+    // public static void dfs(ArrayList<Edge>[] graph, int curr, boolean vis[]) { // O(V+E)
+    //     // visit
+    //     System.out.print(curr + " ");
+    //     vis[curr] = true;
+
+    //     for(int i=0; i<graph[curr].size(); i++) {
+    //         Edge e = graph[curr].get(i);
+    //         if(!vis[e.dest]) {
+    //             dfs(graph, e.dest, vis);
+    //         }
+    //     }
+    // }
+
+    // DFS for disconnected graph
+
+    public static void dfs(ArrayList<Edge>[] graph) {
+        boolean vis[] = new boolean[graph.length];
+        for(int i=0; i<graph.length; i++) {
+            if(!vis[i]) {
+                dfsUtil(graph, i, vis);
+            }
+        }
+    }
+
+    public static void dfsUtil(ArrayList<Edge>[] graph, int curr, boolean vis[]) { // O(V+E)
         System.out.print(curr + " ");
         vis[curr] = true;
 
         for(int i=0; i<graph[curr].size(); i++) {
             Edge e = graph[curr].get(i);
             if(!vis[e.dest]) {
-                dfs(graph, e.dest, vis);
+                dfsUtil(graph, e.dest, vis);
             }
         }
     }
@@ -108,8 +162,11 @@ public class _02_traversals {
         // bfs(graph);
 
         // dfs(graph, 0, new boolean[V]);
+        dfs(graph);
 
         // for given  src & dest, tell if a path exists from src to dest
-        System.out.println(hasPath(graph, 0, 5, new boolean[V]));
+        // System.out.println(hasPath(graph, 0, 5, new boolean[V]));
+
+
     }
 }

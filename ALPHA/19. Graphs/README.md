@@ -11,3 +11,14 @@
 - Depth First Search (DFS)
 
 - hasPath (for given  src & dest, tell if a path exists from src to dest)
+
+#### Cyle Detection
+- Undirected Graph
+
+#### Bipartite Graph
+
+### cyle Detection in Directed Graph
+- DFS
+
+#### Topological Sort
+

@@ -55,7 +55,12 @@
     - Hashmap
     - implementation of hashmap
 
+18. Trie
+
 
 19. Graphs
     - Adjacency List
     - Graph Traversal
+    - Bipartite Graph
+    - Cycle Detection in Directed and Undirected Graph
+    - Topological Sort
