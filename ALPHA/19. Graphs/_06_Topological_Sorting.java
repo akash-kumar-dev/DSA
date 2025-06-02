@@ -27,39 +27,79 @@ public class Topological_Sorting {
         graph[5].add(new Edge(5, 2));
     }
 
-    public static void topSort(ArrayList<Edge> graph[]) {
-        boolean vis[] = new boolean[graph.length];
-        Stack<Integer> s = new Stack<>();
+    // Toplogical Sort using DFS
+    // public static void topSort(ArrayList<Edge> graph[]) {
+    //     boolean vis[] = new boolean[graph.length];
+    //     Stack<Integer> s = new Stack<>();
 
-        for(int i=0; i<graph.length; i++) {
-            if(!vis[i]) {
-                topSortUtil(graph, i, vis, s); // modified DFS
-            }
-        }
+    //     for(int i=0; i<graph.length; i++) {
+    //         if(!vis[i]) {
+    //             topSortUtil(graph, i, vis, s); // modified DFS
+    //         }
+    //     }
 
-        while(!s.isEmpty()) {
-            System.out.print(s.pop() + " ");
-        }
-    }
+    //     while(!s.isEmpty()) {
+    //         System.out.print(s.pop() + " ");
+    //     }
+    // }
 
-    public static void topSortUtil(ArrayList<Edge> graph[], int curr, boolean vis[], Stack<Integer> s) {
-        vis[curr] = true;
+    // public static void topSortUtil(ArrayList<Edge> graph[], int curr, boolean vis[], Stack<Integer> s) {
+    //     vis[curr] = true;
 
-        for(int i=0; i<graph[curr].size(); i++) {
-            Edge e = graph[curr].get(i);
-            if(!vis[e.dest]) {
-                topSortUtil(graph, e.dest, vis, s);
-            }
-        }
+    //     for(int i=0; i<graph[curr].size(); i++) {
+    //         Edge e = graph[curr].get(i);
+    //         if(!vis[e.dest]) {
+    //             topSortUtil(graph, e.dest, vis, s);
+    //         }
+    //     }
 
-        s.push(curr);
-    }
+    //     s.push(curr);
+    // }
     
+    // Topological Sort using BFS (Kahn's Algorithm)
+    public static void calcIndeg(ArrayList<Edge> graph[], int indeg[]) {
+        for(int i=0; i<graph.length; i++) {
+            int v = i;
+            for(int j=0; j<graph[v].size(); j++) {
+                Edge e = graph[v].get(j); // e.dest
+                indeg[e.dest]++;
+            }
+        }
+    }
+
+    public static void topSort(ArrayList<Edge> graph[]) {
+        int indeg[] = new int[graph.length];
+        calcIndeg(graph, indeg);
+        Queue<Integer> q = new LinkedList<>();
+
+        for(int i=0; i<indeg.length; i++) {
+            if(indeg[i] == 0) {
+                q.add(i);
+            }
+        }
+
+        // bfs
+        while(!q.isEmpty()) {
+            int curr = q.remove();
+            System.out.print(curr + " ");
+
+            for(int i=0; i<graph[curr].size(); i++) {
+                Edge e = graph[curr].get(i);
+                indeg[e.dest]--;
+                if(indeg[e.dest] == 0) {
+                    q.add(e.dest);
+                }
+            }
+        }
+        System.out.println();
+    }
+
+
     public static void main(String[] args) {
         int V = 6;
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
-
+        // topSort(graph);
         topSort(graph);
     }
 }

@@ -21,4 +21,11 @@
 - DFS
 
 #### Topological Sort
+- DFS
+- BFS (Kahn's Algorithm)
+
+#### All paths from source to destination
+
+#### Shortest Path from the source to all other nodes
+- Dijkstra's Algorithm
 

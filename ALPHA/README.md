@@ -63,4 +63,5 @@
     - Graph Traversal
     - Bipartite Graph
     - Cycle Detection in Directed and Undirected Graph
-    - Topological Sort
+    - Topological Sort - Kahn's Algorithm
+    - Dijkstra's Algorithm (Shortest Path from source to all other nodes)
