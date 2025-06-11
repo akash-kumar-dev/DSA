@@ -57,7 +57,6 @@
 
 18. Trie
 
-
 19. Graphs
     - Adjacency List
     - Graph Traversal
@@ -65,3 +64,5 @@
     - Cycle Detection in Directed and Undirected Graph
     - Topological Sort - Kahn's Algorithm
     - Dijkstra's Algorithm (Shortest Path from source to all other nodes)
+    - Bellman Ford Algorithm (for negative edges)
+    - Prim's Algorithm (Minimum Spanning Tree)

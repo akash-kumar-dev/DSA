@@ -28,4 +28,9 @@
 
 #### Shortest Path from the source to all other nodes
 - Dijkstra's Algorithm
+- Bellman Ford Algorithm (for negative edges)
 
+#### Minimum Spanning Tree (MST)
+A minimum spanning tree (MST) or minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight.
+
+- Prim's Algorithm
