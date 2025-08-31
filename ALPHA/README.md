@@ -65,4 +65,5 @@
     - Topological Sort - Kahn's Algorithm
     - Dijkstra's Algorithm (Shortest Path from source to all other nodes)
     - Bellman Ford Algorithm (for negative edges)
-    - Prim's Algorithm (Minimum Spanning Tree)
+    - Minimum Spanning Tree (MST) - Prim's Algoritham, Kruskal's Algorithm
+
